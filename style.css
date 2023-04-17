@@ -1,3 +1,19 @@
+p{
+   
+}
 .header{
-    background-color: red;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    color: #f9faf8;
+}
+.links{
+    display:flex;
+    align-items: center;
+
+}
+.links p{
+    margin: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
 }

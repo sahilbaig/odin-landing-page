@@ -50,10 +50,36 @@
     width: 50%;
     height: 200px;
     background-color: gray;
+    margin-left: 50px;
 
 }
 .content button{
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 5px;
+}
+
+.images-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+} 
+.information{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+} 
+.image-info{
+    height: 200px;
+    font-size: bolder;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

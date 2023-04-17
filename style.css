@@ -1,6 +1,3 @@
-p{
-   
-}
 .header{
     background-color: #1f2937;
     display: flex;
@@ -16,4 +13,47 @@ p{
     margin: 10px;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+/* Content (Div -2 ) */
+.content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    align-items: center ;
+}
+.content-text{
+    flex: 1;
+}
+.content-image{
+    flex: 2;
+    height: 200px;
+    background-color: gray;
+    
+}
+.main-text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+.secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.content-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+    background-color: gray;
+
+}
+.content button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
 }

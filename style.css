@@ -1,16 +1,25 @@
+
 .header{
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
     color: #f9faf8;
+    padding: 0 100px 0 100px;
+    justify-content: space-between;
+}
+.header-text {
+    color: #f9faf8;
+    /* align-self: flex-start; */
 }
 .links{
-    display:flex;
+    display: flex;
     align-items: center;
-
+    margin-left: 0px;
 }
 .links p{
-    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
     font-size: 18px;
     color: #e5e7eb;
 }
